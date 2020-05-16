@@ -1,0 +1,365 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+img{
+    max-width: 100%;
+}
+a{
+    text-decoration: none;
+    color: #353533;
+}
+body{
+    margin: auto;
+    font-size: 14px;
+    font-family: 'Maven Pro', sans-serif;
+}
+.container{
+    width: 1170px;
+    margin: auto;
+}
+.header-top{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 10px 0px;
+}
+.header-top .logo{
+    width: 30%;
+}
+.header-top nav{
+    width: 70%;
+}
+.header-top nav ul{
+    text-align: right;
+}
+.header-top nav ul li{
+    font-weight: 700;
+    font-size: 19px;
+    display: inline-block;
+    margin-left: 32px;
+}
+.header-top nav ul li a:hover{
+    color: #e69c53;
+}
+.banner{
+    width: 100%;
+    background: url("../images/bg-banner.png") no-repeat center top;
+    background-size: cover;
+}
+.banner .banner1{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 20px;
+}
+.banner .banner1 .left{
+    width: 35%;
+    color: white;
+    padding-left: 23px;
+}
+.banner .banner1 .left a{
+    display: inline-block;
+    width: 44%;
+    height: 42px;
+    text-align: center;
+    color: white;
+    align-items: center;
+    padding: 10px;
+    background: #136ebf;
+    border-radius: 50px;
+    font-weight: 600;
+    font-size: 15px;
+    border-bottom: 5px solid #024886;
+    text-transform: uppercase;
+}
+.banner .banner1 .left a:hover{
+    background: #e69c53;
+}
+.banner .banner1 .mid{
+    width: 30%;
+}
+.banner .banner1 .right{
+    text-align: right;
+    width: 35%;
+    color: white;
+    padding-right: 23px;
+}
+.banner .banner1 .right a{
+    display: inline-block;
+    width: 44%;
+    height: 42px;
+    text-align: center;
+    color: #136ebf;
+    align-items: center;
+    padding: 10px;
+    background: white;
+    border-radius: 50px;
+    font-weight: 600;
+    font-size: 15px;
+    border-bottom: 5px solid #024886;
+    text-transform: uppercase;
+}
+.banner .banner1 .right a:hover{
+    background: #e69c53;
+}
+.banner .banner1 h1{
+    text-transform: uppercase;
+    font-size: 22px;
+}
+.banner .banner1 h3{
+    margin: 13px 0px;
+    line-height: 22px;
+    font-weight: 100;
+    font-size: 14px;
+}
+.header-bottom{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background: #136ebf;
+    height: 70px;
+    align-items: center;
+    padding: 0px 25px;
+}
+.header-bottom .slogan{
+    width: 50%;
+}
+.header-bottom .slogan h2{
+    font-weight: 100;
+    font-size: 17px;
+    color: white;
+}
+.header-bottom .email{
+    width: 50%;
+    text-align: right;
+    position: relative;
+}
+.header-bottom .email input{
+    width: 52%;
+    height: 36px;
+    padding-left: 16px;
+    border-radius: 50px;
+    border: none;
+}
+.header-bottom .email button{
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 36px;
+    width: 8%;
+    border-radius: 50px;
+    border: none;
+    background: white;
+    color: #135bdf;
+    font-size: 18px;
+}
+.header-bottom .email button:hover{
+    cursor: pointer;
+    color: #e69c53;
+}
+.container-main{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+.container-main .right-main{
+    width: 300px;
+}
+.container-main .right-main .ads{
+    margin-bottom: 30px;
+}
+.container-main .left-main{
+    width: calc(100% - 330px);
+}
+.container-main .left-main .title{
+    display: inline-block;
+    margin-bottom: 30px;
+    padding: 5px 10px;
+    border-left: 14px solid #136ebf;
+    border-bottom: 2px solid #136ebf;
+    font-size: 20px;
+}
+.container-main .left-main .clothing-index{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.container-main .left-main .clothing-index .item{
+    width: 260px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.container-main .left-main .clothing-index .item h3{
+    font-size: 21px;
+    margin-top: 5px;
+    font-weight: 100;
+}
+.container-main .left-main .clothing-index .item h5{
+    font-size: 17px;
+    margin: 4px 0px;
+}
+.container-main .left-main .whey-protein{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.container-main .left-main .whey-protein .item1{
+    width: 48%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+.container-main .left-main .whey-protein .item1 .img{
+    width: 180px;
+}
+.container-main .left-main .whey-protein .item1 .info{
+    width: calc(100% - 200px);
+}
+.container-main .left-main .whey-protein .item1 .info h3{
+    font-size: 20px;
+    font-weight: 100;
+}
+.container-main .left-main .whey-protein .item1 .info h5{
+    font-size: 17px;
+    margin: 9px 0px;
+}
+.container-main .left-main .link{
+    display: inline-block;
+    background: #136ebf;
+    color: white;
+    padding: 6px 33px;
+    text-transform: uppercase;
+    font-size: 14px;
+    border-radius: 50px;
+    margin-top: 5px;
+}
+.container-main .left-main .link:hover{
+    background: #e69c53;
+}
+.container-main .left-main .news{
+    width: 100%;
+}
+.container-main .left-main .news .item2{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+.container-main .left-main .news .item2 .img{
+    width: 300px;
+}
+.container-main .left-main .news .item2 .content{
+    width: calc(100% - 320px);
+}
+.container-main .left-main .news .item2 .content h1{
+    font-size: 19px;
+    text-transform: uppercase;
+}
+.container-main .left-main .news .item2 .content p{
+    margin: 8px 0px;
+    font-size: 12px;
+}
+.container-main .left-main .news .item2 .content h3{
+    font-size: 14px;
+    font-weight: 100;
+}
+footer{
+    background: #136ebf;
+    width: 100%;
+    text-align: center;
+    padding: 30px 0px;
+}
+footer p{
+    font-size: 14px;
+    color: white;
+    margin-top: 20px;
+    line-height: 23px;
+}
+@media only screen and (max-width: 1024px) and (min-width: 480px){
+    
+}
+@media only screen and (max-width: 480px) and (min-width: 320px){
+    .container{
+        width: 95%;
+    }
+    .header-top .logo{
+        width: 100%;
+        text-align: center; 
+    }
+    .header-top nav{
+        width: 100%;
+    }
+    .header-top nav ul{
+        text-align: center;
+        line-height: 28px;
+    }
+    .header-top nav ul li{
+        margin: 0px 20px;
+    }
+    .banner .banner1 .left{
+        width: 100%;
+        text-align: center;
+        padding: 0px 10px;
+    }
+    .banner .banner1 .mid{
+        width: 100%;
+        text-align: center;
+        padding: 20px 0px;
+    }
+    .banner .banner1 .right{
+        width: 100%;
+        text-align: center;
+        padding: 0px 10px;
+        margin-bottom: 20px;
+    }
+    .header-bottom{
+        height: 100%;
+    }
+    .header-bottom .slogan{
+        width: 100%;
+        text-align: center;
+        height: 100%;
+        padding: 17px 0px;
+    }
+    .header-bottom .email{
+        width: 100%;
+        padding-bottom: 17px;
+    }
+    .header-bottom .email input{
+        width: 100%;
+    }
+    .container-main .left-main{
+        width: 100%;
+    }
+    .container-main .left-main .clothing-index .item{
+        width: 48%;
+    }
+    .container-main .left-main .whey-protein .item1{
+        width: 100%;
+    }
+    .container-main .left-main .news .item2{
+        flex-direction: column;
+        text-align: center;
+    }
+    .container-main .left-main .news .item2 .img{
+        width: 100%;
+        margin-bottom: 13px;
+    }
+    .container-main .left-main .news .item2 .content{
+        width: 100%;
+    }
+    .container-main .right-main{
+        width: 100%;
+        text-align: center;
+    }
+}
